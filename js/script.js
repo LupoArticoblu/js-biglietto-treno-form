@@ -24,6 +24,7 @@ button.addEventListener('click', function(){
 
   nomePasseggero = document.querySelector('#nome').value;
   
+ //questa cosa non funziona
   trattaPercors = parseIn(document.querySelector('.test').value);
   
   etaPasseggero  = document.querySelector('#età').value;
