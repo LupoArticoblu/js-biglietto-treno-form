@@ -40,6 +40,14 @@ button{
   margin-left: 10px;
 }
 
+input:focus{
+  background-color: burlywood;
+  color: aliceblue;
+}
+input:focus::placeholder{
+  color: aliceblue;
+}
+
 .contain{
   display: flex;
   justify-content: center;
@@ -48,4 +56,15 @@ button{
 .stamp{
   text-align: center;
   padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .contain,
+  button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  };
+  
+  
 }
